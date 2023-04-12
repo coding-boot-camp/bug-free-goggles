@@ -23,9 +23,9 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
-
+In Regex anchors have a particular meaning. They do not match a specific character; they match a position before and after the characters. The ^ matches the beging of a text and the $ matches the end of a text.
 ### Quantifiers
-
+Quantifiers ,signified with {n}, {n,m}, or {n,}, match the number of instances any character, group, or character class appear in a string. In the email [a-z\.]{2,6} indicates that the letters [a-z] match 2 to 6 times.
 ### OR Operator
 
 ### Character Classes
